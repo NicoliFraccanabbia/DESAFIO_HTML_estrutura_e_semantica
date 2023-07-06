@@ -4,173 +4,205 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <header>
-      <nav>
+    <header class="nav-container">
+      <nav class="container nav-main">
+        <title>DSPlayGames</title>
         <h1>DSPlayGames</h1>
-        <ul>
-          <li><a href="#news">Notícias</a></li>
-          <li><a href="#games">Jogos</a></li>
-          <li><a href="#signUp">Inscreva-se</a></li>
-        </ul>
-        <div>
-          <img src="img/user.png" alt="user" />
+        <div class="menu-items">
+          <li>
+          <a href="#news">Notícias</a>
+          <a href="#games">Jogos</a>
+          <a href="#signUp">Inscreva-se</a>
+          </li>
         </div>
+        <img src="img/user.png" alt="user" />
       </nav>
-    </header>
+  </header>
     <main>
-      <section id="news">
-        <h1>Últimas notícias</h1>
-        <div>
-          <section>
-            <h2>Título principal da notícia</h2>
-            <h3>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Architecto vitae ducimus aperiam.
-            </h3>
-            <div><b><h5>23/02/2022</h5>
-            </div>
-            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Architecto vitae ducimus aperiam. Harum, in dicta? Perspiciatis
-                nam, facilis nesciunt, expedita esse labore officiis ut ipsam
-                voluptates aperiam laboriosam sequi! Expedita vitae iste quae
-                veniam molestiae ea ad alias maiores. Numquam dolor eaque
-                recusandae eius nihil quibusdam esse nisi asperiores in nulla
-                dicta distinctio aliquid ullam aspernatur ad amet fugit dolorem
-                sapiente veritatis quo, rem a. Molestiae qui sed enim! Laborum
-                doloribus nisi quia dolore obcaecati reiciendis quae, numquam
-                consectetur sed animi temporibus inventore nemo. Asperiores fugit
-                rerum, placeat quas in nobis obcaecati similique quae assumenda
-                culpa ab sit voluptatum molestiae voluptates facilis optio
-                recusandae tempore nihil atque et nesciunt nemo perferendis
-                adipisci harum. Corrupti eum autem veritatis et beatae reiciendis,
-                deleniti corporis, voluptas, eaque ipsa nemo odio? Eligendi
-                sapiente id enim quibusdam, repudiandae optio error! Vitae
-                perspiciatis voluptatem sequi nostrum necessitatibus culpa fuga
-                ...</h4>
-             <div>
-                <h4>Ler mais...</h4>
-             </div>
-          </section>
-          <section>
-            <h2>Título principal da notícia</h2>
-            <h3>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Architecto vitae ducimus aperiam.
-            </h3>
-            <div><b><h5>23/02/2022</h5>
-            </div>
-            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Architecto vitae ducimus aperiam. Harum, in dicta? Perspiciatis
-                nam, facilis nesciunt, expedita esse labore officiis ut ipsam
-                voluptates aperiam laboriosam sequi! Expedita vitae iste quae
-                veniam molestiae ea ad alias maiores. Numquam dolor eaque
-                recusandae eius nihil quibusdam esse nisi asperiores in nulla
-                dicta distinctio aliquid ullam aspernatur ad amet fugit dolorem
-                sapiente veritatis quo, rem a. Molestiae qui sed enim! Laborum
-                doloribus nisi quia dolore obcaecati reiciendis quae, numquam
-                consectetur sed animi temporibus inventore nemo. Asperiores fugit
-                rerum, placeat quas in nobis obcaecati similique quae assumenda
-                culpa ab sit voluptatum molestiae voluptates facilis optio
-                recusandae tempore nihil atque et nesciunt nemo perferendis
-                adipisci harum. Corrupti eum autem veritatis et beatae reiciendis,
-                deleniti corporis, voluptas, eaque ipsa nemo odio? Eligendi
-                sapiente id enim quibusdam, repudiandae optio error! Vitae
-                perspiciatis voluptatem sequi nostrum necessitatibus culpa fuga
-                ...</h4>
-             <div>
-                <h4>Ler mais...</h4>
-                <div>
-                    <button><h3>Carregar mais</h3></button>
-                </div>
-             </div>
-          </section>
-        </div>
-      </section>
-      <section id="games">
-        <h1>Jogos</h1>
-        <div>
-          <img src="img/game.png" alt="Horizon Forbidden West" />
-          <div>
-            <h3>Horizon Forbidden West</h3>
-            <p><span>De </span>Sony Interactive Entertainment</p>
-            <p>9.7</p>
-          </div>
-        </div>
-        <div>
-          <img src="img/game.png" alt="Horizon Forbidden West" />
-          <div>
-            <h3>Horizon Forbidden West</h3>
-            <p><span>De </span>Sony Interactive Entertainment</p>
-            <p>9.7</p>
-          </div>
-          <div>
-            <img src="img/game.png" alt="Rails for dummies" />
+        <div class="title">
+          <h1>Últimas notícias</h1> 
+          </div> 
+          <div class="section-container">  
+        <section id="news" class="primeiro-container">
             <div>
-              <h3>Horizon Forbidden West</h3>
-              <p><span>De </span>Sony Interactive Entertainment</p>
-              <p>9.7</p>
+          <h2 class="title-section-main">Título principal da notícia</h2>
+            <h2 class="title-section-secondary">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto vitae ducimus aperiam.
+            </h2>
             </div>
-          </div>
-        </div>
-      </section>
-      <section id="signUp">
-        <h1>Faça sua inscrição</h1>
-        <form>
-
-        <div>
+            <hr> </hr>
+            <p class="date">23/02/2022</p>
+            <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Architecto vitae ducimus aperiam. Harum, in dicta? Perspiciatis
+                nam, facilis nesciunt, expedita esse labore officiis ut ipsam
+                voluptates aperiam laboriosam sequi! Expedita vitae iste quae
+                veniam molestiae ea ad alias maiores. Numquam dolor eaque
+                recusandae eius nihil quibusdam esse nisi asperiores in nulla
+                dicta distinctio aliquid ullam aspernatur ad amet fugit dolorem
+                sapiente veritatis quo, rem a. Molestiae qui sed enim! Laborum
+                doloribus nisi quia dolore obcaecati reiciendis quae, numquam
+                consectetur sed animi temporibus inventore nemo. Asperiores fugit
+                rerum, placeat quas in nobis obcaecati similique quae assumenda
+                culpa ab sit voluptatum molestiae voluptates facilis optio
+                recusandae tempore nihil atque et nesciunt nemo perferendis
+                adipisci harum. Corrupti eum autem veritatis et beatae reiciendis,
+                deleniti corporis, voluptas, eaque ipsa nemo odio? Eligendi
+                sapiente id enim quibusdam, repudiandae optio error! Vitae
+                perspiciatis voluptatem sequi nostrum necessitatibus culpa fuga
+                ...</p>
+             <div>
+                <p class="end-session">Ler mais...</p>
+             </div>
+             </section>
+             <section class="segundo-container">
+              <div>
+            <h2 class="title-section-main">Título principal da notícia</h2>
+              <h2 class="title-section-secondary">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Architecto vitae ducimus aperiam.
+              </h2>
+              </div>
+              <hr> </hr>
+              <p class="date">23/02/2022</p>
+              <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Architecto vitae ducimus aperiam. Harum, in dicta? Perspiciatis
+                  nam, facilis nesciunt, expedita esse labore officiis ut ipsam
+                  voluptates aperiam laboriosam sequi! Expedita vitae iste quae
+                  veniam molestiae ea ad alias maiores. Numquam dolor eaque
+                  recusandae eius nihil quibusdam esse nisi asperiores in nulla
+                  dicta distinctio aliquid ullam aspernatur ad amet fugit dolorem
+                  sapiente veritatis quo, rem a. Molestiae qui sed enim! Laborum
+                  doloribus nisi quia dolore obcaecati reiciendis quae, numquam
+                  consectetur sed animi temporibus inventore nemo. Asperiores fugit
+                  rerum, placeat quas in nobis obcaecati similique quae assumenda
+                  culpa ab sit voluptatum molestiae voluptates facilis optio
+                  recusandae tempore nihil atque et nesciunt nemo perferendis
+                  adipisci harum. Corrupti eum autem veritatis et beatae reiciendis,
+                  deleniti corporis, voluptas, eaque ipsa nemo odio? Eligendi
+                  sapiente id enim quibusdam, repudiandae optio error! Vitae
+                  perspiciatis voluptatem sequi nostrum necessitatibus culpa fuga
+                  ...</p>
+               <div>
+                  <p class="end-session">Ler mais...</p>
+               </div>
+              </div>
+               </section>
+               <div class="button-container">
+                <button class="button button">
+                  <p>Carregar mais</p>
+                </button>
+                </div>
+                 
+                <section class="catalogo-section">
+                  <h1 class="title-games">Jogos</h1>
+                  <div class="container-games">
+                    <div class="container-games-items">
+                      <img class="container-games-item-image"
+                        src="img/game.png"
+                        alt="Horizon Forbidden West"
+                      />
+                      <div class="card-description">
+                        <p class="subtitle-games">Horizon Forbidden West</p>
+                        <p class="subtitle2-games"><span>De </span>Sony Interactive Entertainment</p>
+                        <p class="subtitle3-games">9.7</p>
+                      </div>
+                      </div>
+                    <div class="container-games-items">
+                      <img class="container-games-item-image"
+                        src="img/game.png"
+                        alt="Horizon Forbidden West"
+                      />
+                      <div class="card-description">
+                        <p class="subtitle-games">Horizon Forbidden West</p>
+                        <p class="subtitle2-games"><span>De </span>Sony Interactive Entertainment</p>
+                        <p class="subtitle3-games">9.7</p>
+                      </div>
+                      </div>
+                    <div class="container-games-items">
+                      <img class="container-games-item-image"
+                        src="img/game.png"
+                        alt="Horizon Forbidden West"
+                      />
+                      <div class="card-description">
+                        <p class="subtitle-games">Horizon Forbidden West</p>
+                        <p class="subtitle2-games"><span>De </span>Sony Interactive Entertainment</p>
+                        <p class="subtitle3-games">9.7</p>
+                      </div>
+                      </div>
+                    </div>
+                </section>
+      <div class="section-container">  
+        <h1 class="title-form">Faça sua inscrição</h1>
+      <section id="signUp" class="terceiro-container">
+        <form class="form-dados-container">
             <label for="crtl-name"></label>
-            <input
+            <input class="inputs"
               id="crtl-name"
               name="name"
               type="text"
               placeholder="Nome completo"
             />
-          </div>
-
-          <div>
             <label for="crtl-email"></label>
-            <input
+            <input class="inputs
               id="crtl-email"
               name="email"
               type="email"
               placeholder="Email"
             />
-            <div>
-              <label for="ctrl-level">Qual sua plataforma preferida?</label><b>
-              <div id="ctrl-level">
-                <div><input type="radio" name="level" id="ctrl-level-1" />
-                <label for="ctrl-level-1">PC</label></div>
-                <div><input type="radio" name="level" id="ctrl-level-2" />
-                <label for="ctrl-level-2">Xbox</label></div>
-                <div><input type="radio" name="level" id="ctrl-level-3" />
-                <label for="ctrl-level-3">Playstation</label></div>
+              <label class="title-form2" for="ctrl-level">Qual sua plataforma preferida?</label>
+              <div class="container-bottons-options">
+              <b class="bottons-options">
+                <div class="container-bottons">
+                <input type="radio" name="level" id="ctrl-level-1" />
+                <label for="ctrl-level-1">PC</label>
               </div>
-                  <input id="ctrl-news" name="newa" type="checkbox">
+              <div class="container-buttons">
+                <input type="radio" name="level" id="ctrl-level-2" />
+                <label for="ctrl-level-2">Xbox</label>
+              </div>
+              <div class="container-bottons">
+                <input type="radio" name="level" id="ctrl-level-3" />
+                <label for="ctrl-level-3">Playstation</label>
+              </div>
+              <div class="container-bottons1">
+                <input id="ctrl-news" name="news" type="checkbox">
                   <label for="ctrl-news">Desejo receber novidades</label>
-          </div>
-          <input type="submit" value="Enviar" />
-          <input type="reset" value="Limpar" />
+                </div>
+                  </b>
+                  <div class="button-container">
+            <button class="button button1">
+              <p>Enviar</p>
+            </button>
+              <button class="button button2">
+                <p>Limpar</p>
+              </button>
+              </div>
+              </div>
         </form>
       </section>
+      </div>
     </main>
-    <footer>
-      <div>
-        <div>
+    <footer class="footer-container">
+        <div class="redes-footer">
           <p>@dsplaygames</p>
           <p>/dsplaygames</p>
-          <br />
+        </div>      
+        <div class="footer-container direitos-footer">
+          <div class="direitos-footer">
+            <p>DS Play Games Ltda. Todos direitos reservados</p>
+         </div>
         </div>
-        <div>
-          <p>DS Play Games Ltda. Todos direitos reservados</p>
-          <br />
+        <div class="footer-container2">
+          <p class="footer-politica-privacidade">Política de privacidade</p>
+          <p class="termos">Termos de uso</p>
         </div>
-        <div>
-          <p>Política de privacidade<br />Termos de uso</p>
-          <br />
-        </div>
-      </div>
     </footer>
   </body>
 </html>
